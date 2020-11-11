@@ -8,12 +8,12 @@ jobs:
             - run:
                 name: Setup VirtualEnv
                 command: |
-                python -m venv venv
-                venv\Scripts\activate.bin
-                pip install -r requirements.txt
+                    python -m venv venv
+                    venv\Scripts\activate.bin
+                    pip install -r requirements.txt
             -run:
                 name: Run Tests
                 command: |
-                venv\Scripts\activate.bin
-                flake8 --statistics
-                pytest -v --cov
+                    venv\Scripts\activate.bin
+                    flake8 --statistics
+                    pytest -v --cov
