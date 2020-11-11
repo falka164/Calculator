@@ -1,8 +1,11 @@
-varsion: 2.1
+varsion: 2
 jobs:
     build:
         docker:
-           -image: circleci/python:3.8.2
+           - image: circleci/python:3.8.2
+
+        working_directory: ~/repo
+
         steps:
             - checkout
             - run:
