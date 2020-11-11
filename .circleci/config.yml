@@ -11,7 +11,7 @@ jobs:
                     python -m venv venv
                     venv\Scripts\activate.bin
                     pip install -r requirements.txt
-            -run:
+            - run:
                 name: Run Tests
                 command: |
                     venv\Scripts\activate.bin
