@@ -9,4 +9,3 @@ class TestCalculator:
     def test_substract(self):
         assert 2 == calculator.substract(4, 2)
 
-        
