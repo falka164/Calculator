@@ -8,3 +8,7 @@ def substract(num1, num2):
     mySub = num1 - num2
     print("I've just substracted two numbers! My result is: " + str(mySub))
     return mySub
+
+
+add(3, 4)
+substract(5, 9)
