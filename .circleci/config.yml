@@ -3,9 +3,7 @@ jobs:
     build:
         docker:
            - image: circleci/python:3.8
-             auth:
-                username: usernameDockerHub
-                password: passwordDockerHub 
+
         working_directory: ~/repo
 
         steps:
